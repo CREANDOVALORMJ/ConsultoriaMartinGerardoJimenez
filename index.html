@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Consultoría Profesional</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Informativa y de Venta</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header class="navbar">
+    <img src="assets/logo.png" alt="Logo" class="logo" />
+    <nav>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-<header class="hero">
-  <img src="fondo.png" class="hero-bg">
-  <div class="hero-content">
-    <img src="foto.png" class="hero-photo">
-    <h1>Creando Valor con Estrategias que Generan Resultados</h1>
-    <a href="#contacto" class="btn-primary">Agenda una Consulta</a>
-  </div>
-</header>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Tu Solución Ideal</h1>
+      <p>Información clara y una oferta irresistible para tus clientes.</p>
+      <a href="#contacto" class="btn-primary">Comprar Ahora</a>
+    </div>
+    <img src="assets/hero.jpg" class="hero-img" />
+  </section>
 
-<section id="servicios" class="section">
-<h2>Servicios de Consultoría</h2>
-<div class="grid">
-  <div class="card"><h3>Consultoría en Retail</h3><p>Optimización del desempeño en tiendas.</p></div>
-  <div class="card"><h3>Mercadeo Estratégico</h3><p>Insights, posicionamiento y ejecución.</p></div>
-  <div class="card"><h3>Trade Marketing</h3><p>Visibilidad y ejecución en punto de venta.</p></div>
-  <div class="card"><h3>Acompañamiento de Marcas</h3><p>Fortalecimiento y expansión comercial.</p></div>
-</div>
-</section>
+  <section id="beneficios" class="benefits">
+    <h2>Beneficios</h2>
+    <div class="grid">
+      <div class="card">✔ Rápido de implementar</div>
+      <div class="card">✔ Información clara</div>
+      <div class="card">✔ Aumenta tus ventas</div>
+    </div>
+  </section>
 
-<section id="contacto" class="section light">
-<h2>Contacto</h2>
-<p>Correo: MJIMENEZLARA@HOTMAIL.COM</p>
-<a href="https://wa.me/529994330634" class="btn-primary">WhatsApp Directo</a>
-</section>
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Servicio 1</li>
+      <li>Servicio 2</li>
+      <li>Servicio 3</li>
+    </ul>
+  </section>
 
-<footer><p>© 2025 Consultoría Profesional</p></footer>
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Email" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 - Landing Informativa y de Venta
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
